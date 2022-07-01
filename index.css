@@ -2,7 +2,7 @@
     background-color: aliceblue;
 }
 
-@media screen and (max-width: 260px) {
+@media screen and (max-width: 400px) {
     .body {
       background-color: lightgreen;
       font-family: "Press start 2P";
