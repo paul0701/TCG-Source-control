@@ -1,0 +1,10 @@
+.body {
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 260px) {
+    .body {
+      background-color: lightgreen;
+      font-family: "Press start 2P";
+    }
+  }
