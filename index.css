@@ -1,10 +1,109 @@
+
 .body {
-    background-color: aliceblue;
+    background: linear-gradient(135deg, rgb(247, 251, 251) 50%, rgb(81, 76, 247) 50%);
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
 }
 
-@media screen and (max-width: 400px) {
+img {
+    border-radius: 200px;
+    border: solid #fff 4px;
+    transform: rotate(-45deg);
+    max-width: 400px;
+    height: auto;
+}
+.title {
+    margin-top: 60px;
+    font-size: 60px;
+}
+.bootstrap {
+    text-decoration: none;
+    color: #fff;
+}
+.footer {
+    color: #fff;
+
+}
+
+.knife:hover {
+    display: inline-block;
+    cursor: pointer;
+    transform: rotate(1795deg);
+    transition: all 3s ease-in-out 0s;
+}
+.knife {
+    display: inline-block;
+    transform: rotate(-1795deg);
+    transition: all 3s ease-in-out 0s;
+}
+.content .social_icons {
+    position: fixed;
+    right: 1vw;
+    bottom: 2vh;
+    }
+    .content .social_icons a{
+    margin: 10px 0px;
+    color: #fff;
+    display:block;
+    font-size: 28px;
+    }
+
+
+
+
+/*MEDIA QUERY FOR  MOST PHONE SCREENS*/
+@media screen and (max-width:480px) {
     .body {
-      background-color: lightgreen;
-      font-family: "Press start 2P";
+    position: relative;
+    margin: auto;
+    scroll-behavior: smooth;
+    background: rgb(177, 217, 240);
+    }
+    .content .social_icons {
+    position: relative;
+    margin-top: -80px;
+    margin-left: 30px;
+    transform: scale(1.2);
+    }
+    .content .social_icons a {
+    display: inline;
+    color: #000;
+    padding: 10px;
+    }
+    .image {
+    transform: scale(.6) rotate(-45deg);
+    margin-top: -140px;
+    }
+    .title {
+    position: relative;
+    margin-top: -40px;
+    transform: scale(.7);
+    width: 480px;
+    
+    }
+    .button {
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid #000;
+    width: 60%;
+    background-color: rgb(229, 228, 248);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 5px;
+    }
+   .footer {
+    position: fixed;
+    bottom: 2vh;
+    color: #000;
+    transform: scale(.9);
+    }
+    .footer a {
+    color: #000;
+    font-weight: bold;
     }
   }
