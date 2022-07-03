@@ -14,7 +14,7 @@
 
 .title {
     margin-top: 60px;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .bootstrap {
@@ -22,9 +22,13 @@
     color: #fff;
 }
 
+.result {
+    font-size: 20px;
+   
+}
+
 .footer {
     color: #fff;
-
 }
 
 .knife:hover {
@@ -90,6 +94,7 @@
         color: #000;
         font-size: 36px;
     }
+    
 
     .contact {
         margin: 30px 0px 30px;
