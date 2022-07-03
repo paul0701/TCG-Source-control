@@ -1,4 +1,3 @@
-
 .body {
     background: linear-gradient(135deg, rgb(247, 251, 251) 50%, rgb(81, 76, 247) 50%);
     font-family: 'Ubuntu', sans-serif;
@@ -12,14 +11,17 @@
     max-width: 400px;
     height: auto;
 }
+
 .title {
     margin-top: 60px;
     font-size: 60px;
 }
+
 .bootstrap {
     text-decoration: none;
     color: #fff;
 }
+
 .footer {
     color: #fff;
 
@@ -31,68 +33,80 @@
     transform: rotate(1795deg);
     transition: all 3s ease-in-out 0s;
 }
+
 .knife {
     display: inline-block;
     transform: rotate(-1795deg);
     transition: all 3s ease-in-out 0s;
 }
+
 .content .social_icons {
     position: fixed;
     right: 1vw;
     bottom: 2vh;
-    }
-    .content .social_icons a{
+}
+
+.content .social_icons a {
     margin: 10px 0px;
     color: #fff;
-    display:block;
+    display: block;
     font-size: 28px;
-    }
+}
 
 
 
 /*MEDIA QUERY FOR <480px PHONE SCREENS*/
 @media screen and (max-width:480px) {
- 
-.body {
-background: rgb(22, 249, 249);
-box-sizing: border-box;
-}
-.mobile {
-display: inline-block;
-text-align: center;
-}
-.title {
-font-size: 40px;
-width: 380px
-}
-.image {
-max-width: 200px;
-height: auto;
-margin-bottom: 20px;
-}
-.content .social_icons {
-position: relative;
-transform: translate(2vw);
-}
-.content .social_icons a {
-display: inline-block;
-padding: 10px;
-color: #000;
-font-size: 36px;
-}
-.contact {
-margin: 30px 0px 30px;
-}
-.footer, .bootstrap {
-position: sticky;
-color: #000;
-}
-.linethrough {
-position: relative;
-content: "";
-height: 2px;
-background-color: #000;
-width: 80%;
-margin: auto;
-}
+
+    .body {
+        background: rgb(22, 249, 249);
+        box-sizing: border-box;
+    }
+
+    .mobile {
+        display: inline-block;
+        text-align: center;
+    }
+
+    .title {
+        font-size: 40px;
+        width: 380px
+    }
+
+    .image {
+        max-width: 200px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .content .social_icons {
+        position: relative;
+        transform: translate(2vw);
+    }
+
+    .content .social_icons a {
+        display: inline-block;
+        padding: 10px;
+        color: #000;
+        font-size: 36px;
+    }
+
+    .contact {
+        margin: 30px 0px 30px;
+    }
+
+    .footer,
+    .bootstrap {
+        position: sticky;
+        color: #000;
+    }
+
+    .linethrough {
+        position: relative;
+        content: "";
+        height: 2px;
+        background-color: #000;
+        width: 80%;
+        margin: auto;
+    }
 }
